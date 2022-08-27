@@ -1,4 +1,6 @@
 #Variables and default values used in this deploy
+# Dependencies - nil
+# NZDR, August 2022
 
 variable "location" {
   type    = string

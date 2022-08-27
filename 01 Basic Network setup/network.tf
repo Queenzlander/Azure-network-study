@@ -1,19 +1,6 @@
-# Network Terraform file
-# Purpose is learning to deploy VNETs and SUBNETs
+# Deploy a VNET and two Subnets
+# Dependencies - providers.tf and variables.tf
 # NZDR, August 2022
-
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=2.60.0"
-    }
-  }
-}
-
-provider "azurerm" {
-  features {}
-}
 
 resource "azurerm_resource_group" "myresourcegroup" {
   name     = var.rg_name
