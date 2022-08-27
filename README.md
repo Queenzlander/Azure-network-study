@@ -4,7 +4,7 @@ Each folder in this repo will be a seperate deploy (its own Terraform init and s
 
 The Terraform code will be placed in seperate functional files with descriptive names so I can duplicate them between folders (deploys) i.e. I can copy the files from 01 Basic Network Setup and use the copies in 02 Basic Load balancer.
 
-Log of deploys:
-1- 01 Basic Network Setup - a RG, VNET and couple of Subnets
+Log of deploys:  
+1- 01 Basic Network Setup - a RG, VNET and couple of Subnets  
 2- 02 Basic Load Balancer - Basic 01 network plus a load balancer
 
