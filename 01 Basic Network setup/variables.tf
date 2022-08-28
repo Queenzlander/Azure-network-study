@@ -19,10 +19,10 @@ variable "vnet_name" {
 
 variable "subnet1_name" {
   type    = string
-  default = "subnet1-az700"
+  default = "subnet1"
 }
 
 variable "subnet2_name" {
   type    = string
-  default = "subnet2-az700"
+  default = "subnet2"
 }
