@@ -4,7 +4,9 @@ Not thought this deploy will be used by any other
 Network.tf file
 1- a Resource Group
 2- a VNET
-3- two Subnets
+3- two Subnets  
+4- Security Group
+
  
 Status: under deveolpment
 
